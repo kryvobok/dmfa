@@ -605,6 +605,12 @@
                 "category" => __("Content", "dmfa"),
                 "params" => array(
                     array(
+                        "type" => "textfield",
+                        "heading" => __("Title", "dmfa"),
+                        "param_name" => "title",
+                        "description" => __("Enter the title for your gallery.", "dmfa"),
+                    ),
+                    array(
                         "type" => "attach_images",
                         "heading" => __("Images", "dmfa"),
                         "param_name" => "images",
@@ -617,25 +623,35 @@
     
     add_action('vc_before_init', 'custom_gallery_block_wpbakery');
 
+
 // Shortcode output
     function custom_gallery_block_output($atts)
     {
         $atts = shortcode_atts(
             array(
+                'title' => '',
                 'images' => '',
             ),
             $atts,
             'custom_gallery_block'
         );
         
+        $title = $atts['title'];
         $images_ids = explode(',', $atts['images']);
-        $output = '<div class="gallery-with-thumbnails f-carousel">';
+        $output = '<div class="gallery-with-thumbnails">';
+        
+        if (!empty($title)) {
+            $output .= '<h2 class="gallery-with-thumbnails__title">' . esc_html($title) . '</h2>';
+        }
+    
+        $output .= '<div class="gallery-with-thumbnails_slider f-carousel">';
         
         foreach ($images_ids as $image_id) {
             $image_src = wp_get_attachment_image_src($image_id, 'large');
             $output .= '<div class="gallery-with-thumbnails__slide f-carousel__slide" data-thumb-src="' . esc_url($image_src[0]) . '"><img width="100%" height="auto" data-lazy-src="' . esc_url($image_src[0]) . '" alt="" /></div>';
         }
         
+        $output .= '</div>';
         $output .= '</div>';
         
         return $output;

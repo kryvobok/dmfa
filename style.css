@@ -1177,7 +1177,16 @@ div.wpb_wrapper .circle{
   }
 }
 
-/* Fancyapps */
+/* Start Gallery With Thumbnails */
+
+.gallery-with-thumbnails__title {
+    text-align: center;
+}
+
+/* End Gallery With Thumbnails */
+
+
+/* Start Fancyapps */
 
 .f-carousel .f-button {
     display: flex;
@@ -1198,3 +1207,5 @@ div.wpb_wrapper .circle{
     width: 16px;
     height: 16px;
 }
+
+/* End Fancyapps */

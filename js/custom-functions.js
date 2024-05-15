@@ -148,7 +148,7 @@
         });
 
         function galleryWithThumbnailsSlider() {
-            const slider = $('.gallery-with-thumbnails');
+            const slider = $('.gallery-with-thumbnails .f-carousel');
 
             if (slider) {
                 slider.each(function () {
