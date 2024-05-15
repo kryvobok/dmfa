@@ -1,0 +1,56 @@
+[15-Sep-2020 03:44:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[22-Sep-2020 19:28:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[29-Sep-2020 06:12:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[07-Nov-2020 23:39:28 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[07-Nov-2020 23:39:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[27-Jan-2021 13:17:34 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[27-Jan-2021 13:17:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[12-Mar-2021 11:01:39 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Mar-2021 11:01:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[25-May-2021 00:01:29 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[25-May-2021 00:01:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[01-Nov-2021 09:01:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/archive.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/archive.php on line 20
+[01-Nov-2021 09:01:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/header.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/header.php on line 3
+[01-Nov-2021 09:01:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[02-Nov-2021 23:32:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/archive.php:20
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/archive.php on line 20
+[02-Nov-2021 23:32:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/index.php on line 8
+[02-Nov-2021 23:32:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home2/dmfa2018/public_html/wp-content/themes/dmfa/header.php:3
+Stack trace:
+#0 {main}
+  thrown in /home2/dmfa2018/public_html/wp-content/themes/dmfa/header.php on line 3
